@@ -1,3 +1,23 @@
 
 
 remote_theme: "jekyll/minima@bf9ef98"
+
+title: Mémoires de bricolages
+
+author:
+  name: Nicolas Graziano
+  email: nicolas.graziano@free.fr
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+minima:
+#   Minima skin selection. Available skins are:
+#     * classic            Default, light color scheme.
+#     * dark               Dark variant of the classic skin.
+#     * auto               Adaptive skin based on the classic and dark skins.
+#     * solarized-light    Light variant of solarized color scheme.
+#     * solarized-dark     Dark variant of solarized color scheme.
+#     * solarized          Adaptive skin for solarized color scheme skins.
+  skin: auto
